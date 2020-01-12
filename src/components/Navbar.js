@@ -15,8 +15,7 @@ const Navbar = () => {
         <span role="img" aria-label="cool emoji">
           🔑
         </span>{" "}
-        Currently, I have set {vision.length} goal
-        {"s" ? vision.length > 1 : vision.length === 1}.
+        Currently, I have set {vision.length} goal{vision.length > 1 ? "s" : ""}.
       </p>
     </div>
   );
